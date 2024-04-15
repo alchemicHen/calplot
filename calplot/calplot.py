@@ -163,7 +163,7 @@ def yearplot(data, year=None, how='sum',
     # Draw heatmap.
     kwargs['linewidth'] = linewidth
     kwargs['edgecolors'] = linecolor
-    ax.pcolormesh(plot_data, vmin=vmin, vmax=vmax, cmap=cmap, **kwargs)
+    ax.pcolormesh(plot_data, cmap=cmap, **kwargs) # Removed vmin and vmax for normalization compatability.
 
     # Limit heatmap to our data.
     ax.set(xlim=(0, plot_data.shape[1]), ylim=(0, plot_data.shape[0]))
