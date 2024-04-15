@@ -324,7 +324,7 @@ def calplot(data, how='sum',
     ylabel_kws = dict(
         fontsize=30,
         color='gray',
-        fontname='Helvetica',
+        # fontname='Helvetica', removing font warning
         fontweight='bold',
         ha='center')
     ylabel_kws.update(yearlabel_kws)
