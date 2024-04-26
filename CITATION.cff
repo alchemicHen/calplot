@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Forked From tomkwok/calpot"
+authors:
+  - family-names: Kwok
+    given-names: Tom
+    orcid: 
+title: "Calplot"
+version: 0.1.7.5
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.1234
+date-released: 2024-04-11
